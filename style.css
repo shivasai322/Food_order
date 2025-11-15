@@ -328,6 +328,58 @@ body {
     color: white !important;
     transform: scale(1.05);
 }
+.feane{
+    display: flex;
+    background-color: #1a1f26;
+    padding: 20px 60px;
+}
+.read-more{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    padding: 60px 80px 60px 80px;
+}
+.read-content{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+.read-content h4{
+    padding: 20px 30px;
+    font-size: 40px;
+    font-family: cursive;
+}
+.read-content p{
+    padding: 20px 30px;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.read-btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f3b53f;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.read-btn:hover{
+    background-color: chocolate;
+    transition: 0.3s;
+    
+}
+button{
+    cursor: pointer;
+}
+
+
+
 
 
 
