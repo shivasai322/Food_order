@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <!-- Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Feane</div>
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">BOOK A TABLE</a></li>
+        </ul>
+        <div class="right-side">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <BUTTON class="order-btn">Order Online</BUTTON>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Fast Food Restaurant</h1>
+            <p>
+                Doloremque, itaque aperiam facilis rerum, commodi, <br> temporibus sapiente ad
+                mollitia laborum quam quisquam esse error unde.<br> Tempora ex doloremque, labore,
+                sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+            </p>
+            <button class="hero-btn">ORDER NOW</button>
+            <div class="dots">
+                <span class="dot-active"></span>
+                <span class="dot"></span>
+                <!-- </div>
+            <div class="hero-img">
+                <img src="https://themewagon.github.io/feane/images/hero-bg.jpg" alt="">
+
+            </div> -->
+            </div>
+    </section>
+
+    <section class="offers">
+        <div class="offer-card">
+            <div class="img">
+                <img src="	https://themewagon.github.io/feane/images/o1.jpg" alt="">
+            </div>
+            <div class="offer-contents">
+                <h4>Tasty thursday</h4>
+                <h4>20% <span class="offs">off</span></h4>
+                <button class="offer-btn">Order Now
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="offer-card">
+            <div class="img">
+                <img src="	https://themewagon.github.io/feane/images/o2.jpg" alt="">
+            </div>
+            <div class="offer-contents">
+                <h4>Pizza Day</h4>
+                <h4>15% <span class="offs">off</span></h4>
+                <button class="offer-btn">Order Now
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section">
+        <h2 class="menu-title"> Our menu</h2>
+        <div class="menu-btn">
+            <button data-filter="all">All </button>
+            <button data-filter="Burger">Burger</button>
+            <button data-filter="Pizza">Pizza</button>
+            <button data-filter="Pasta">Pasta</button>
+            <button data-filter="Fries">Fries</button>
+        </div>
+        <div class="menu-grid">
+            <div class="menu-card" data-category="Pizza">
+                <img src="https://themewagon.github.io/feane/images/f1.png" class="menu-img">
+                <div class="menu-contents">
+                    <h3>Delicious Pizza</h3>
+                    <p>Veniam debitis quaerat officiis quasi 
+                        <br>cupiditate quo, quisquam velit,
+                        <br>magnam voluptatem repellendus sed eaque</p>
+                        <div class="menu-footer">
+                            <span>$20</span>
+                            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                </div>
+            </div>
+             <div class="menu-card" data-category="Burger">
+                <img src="https://themewagon.github.io/feane/images/f2.png" class="menu-img">
+                <div class="menu-contents">
+                    <h3>Delicious Burger</h3>
+                    <p>Veniam debitis quaerat officiis quasi 
+                        <br>cupiditate quo, quisquam velit,
+                        <br>magnam voluptatem repellendus sed eaque</p>
+                        <div class="menu-footer">
+                            <span>$20</span>
+                            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                </div>
+            </div>
+             <div class="menu-card" data-category="Pizza">
+                <img src="https://themewagon.github.io/feane/images/f3.png" class="menu-img">
+                <div class="menu-contents">
+                    <h3>Delicious Pizza</h3>
+                    <p>Veniam debitis quaerat officiis quasi 
+                        <br>cupiditate quo, quisquam velit,
+                        <br>magnam voluptatem repellendus sed eaque</p>
+                        <div class="menu-footer">
+                            <span>$20</span>
+                            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                </div>
+            </div>
+             <div class="menu-card" data-category="Pasta">
+                <img src="https://themewagon.github.io/feane/images/f4.png" class="menu-img">
+                <div class="menu-contents">
+                    <h3>Delicious Pasta</h3>
+                    <p>Veniam debitis quaerat officiis quasi 
+                        <br>cupiditate quo, quisquam velit,
+                        <br>magnam voluptatem repellendus sed eaque</p>
+                        <div class="menu-footer">
+                            <span>$20</span>
+                            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                </div>
+            </div>
+             <div class="menu-card" data-category="Fries">
+                <img src="https://themewagon.github.io/feane/images/f5.png" class="menu-img">
+                <div class="menu-contents">
+                    <h3>French Fries</h3>
+                    <p>Veniam debitis quaerat officiis quasi 
+                        <br>cupiditate quo, quisquam velit,
+                        <br>magnam voluptatem repellendus sed eaque</p>
+                        <div class="menu-footer">
+                            <span>$20</span>
+                            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                </div>
+            </div>
+            <div class="menu-card" data-category="Pizza">
+                <img src="https://themewagon.github.io/feane/images/f6.png" class="menu-img">
+                <div class="menu-contents">
+                    <h3>Delicious Pizza</h3>
+                    <p>Veniam debitis quaerat officiis quasi 
+                        <br>cupiditate quo, quisquam velit,
+                        <br>magnam voluptatem repellendus sed eaque</p>
+                        <div class="menu-footer">
+                            <span>$20</span>
+                            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                </div>
+            </div>
+            <div class="menu-card" data-category="Burger">
+                <img src="https://themewagon.github.io/feane/images/f7.png" class="menu-img">
+                <div class="menu-contents">
+                    <h3>Tasty Burger</h3>
+                    <p>Veniam debitis quaerat officiis quasi 
+                        <br>cupiditate quo, quisquam velit,
+                        <br>magnam voluptatem repellendus sed eaque</p>
+                        <div class="menu-footer">
+                            <span>$20</span>
+                            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                </div>
+            </div>
+            <div class="menu-card" data-category="Burger">
+                <img src="https://themewagon.github.io/feane/images/f8.png" class="menu-img">
+                <div class="menu-contents">
+                    <h3>Tasty Burger</h3>
+                    <p>Veniam debitis quaerat officiis quasi 
+                        <br>cupiditate quo, quisquam velit,
+                        <br>magnam voluptatem repellendus sed eaque</p>
+                        <div class="menu-footer">
+                            <span>$20</span>
+                            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                </div>
+            </div>
+            <div class="menu-card" data-category="Pasta">
+                <img src="https://themewagon.github.io/feane/images/f9.png" class="menu-img">
+                <div class="menu-contents">
+                    <h3>Delicious Pasta</h3>
+                    <p>Veniam debitis quaerat officiis quasi 
+                        <br>cupiditate quo, quisquam velit,
+                        <br>magnam voluptatem repellendus sed eaque</p>
+                        <div class="menu-footer">
+                            <span>$20</span>
+                            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="view">
+            <button>view more</button>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
