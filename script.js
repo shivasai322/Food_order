@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-   
+
 
     const filterButtons = document.querySelectorAll(".menu-btn button");
     const menuCards = document.querySelectorAll(".menu-card");
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    
+
 
     const track = document.querySelector(".testimonial-track");
     const slides = Array.from(document.querySelectorAll(".testimonial-slide"));
@@ -53,6 +53,21 @@ document.addEventListener("DOMContentLoaded", function () {
         index = (index - 1 + slides.length) % slides.length;
         updateSlide();
     });
+    const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    mobileMenuIcon.addEventListener('click', () => {
+        mobileMenu.classList.toggle('open');
+        if (mobileMenu.classList.contains('open')) {
+            mobileMenu.style.display = 'flex';
+            mobileMenuIcon.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+        } else {
+            mobileMenu.style.display = 'none';
+            mobileMenuIcon.innerHTML = '<i class="fa-solid fa-bars"></i>';
+        }
+    });
 
 });
+
+
 
